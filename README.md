@@ -1,4 +1,4 @@
-# How to drag a record from Angular Grid and drop it into Angular Scheduler of Syncfusion?
+# How to drag a record from Grid and drop it into Angular Scheduler of Syncfusion?
 A quick start project that helps you to learn how easily you can drag a record from Angular Grid and drop them into any cells of the Syncfusion Angular Scheduler using its built-in properties.
 
 To drag between two Data Grids: https://ej2.syncfusion.com/angular/documentation/grid/row/#drag-and-drop
