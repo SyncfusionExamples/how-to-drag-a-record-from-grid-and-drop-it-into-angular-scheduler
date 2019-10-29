@@ -10,7 +10,7 @@ import { hospitalData, waitingList } from './data';
   <h1>Drag a record from <span style="color:red">Grid</span> and drop it into <span style="color:red">Scheduler</span></h1>
   <div style="float:left">
   <h2>Scheduler</h2>
-  <ejs-schedule id='Schedule' #scheduleObj cssClass='schedule-drag-drop' width='800px' height='650px' 
+  <ejs-schedule id='Schedule' #scheduleObj width='800px' height='650px' 
     [currentView]="currentView" 
     [selectedDate]="selectedDate" 
     [eventSettings]="eventSettings">
