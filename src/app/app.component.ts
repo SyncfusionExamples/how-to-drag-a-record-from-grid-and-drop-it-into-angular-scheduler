@@ -9,7 +9,7 @@ import { hospitalData, waitingList } from './data';
   template: `<div>
   <h1>Drag a record from <span style="color:red">Grid</span> and drop it into <span style="color:red">Scheduler</span></h1>
   <div style="float:left">
-  <h2>Scheduler</h2>
+  <h2>A doctor's Calendar</h2>
   <ejs-schedule id='Schedule' #scheduleObj width='800px' height='650px' 
     [currentView]="currentView" 
     [selectedDate]="selectedDate" 
@@ -18,7 +18,7 @@ import { hospitalData, waitingList } from './data';
   </div>
   
   <div style="width:400px;float:right;margin-right:350px">
-  <h2>Grid </h2>
+  <h2>Waiting list</h2>
    <ejs-grid id='Grid' #gridObj 
         [dataSource]='gridDS' width="300px" 
         [allowSelection]="true" 
