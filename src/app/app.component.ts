@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { extend, closest } from '@syncfusion/ej2-base';
 import { EventSettingsModel, View, DayService, WeekService, WorkWeekService, MonthService, DragAndDropService, ResizeService, ScheduleComponent, CellClickEventArgs } from '@syncfusion/ej2-angular-schedule';
-import { GridComponent, RowDDService, EditService } from '@syncfusion/ej2-angular-grids';
+import { GridComponent, RowDDService, EditService, EditSettingsModel, RowDropSettingsModel } from '@syncfusion/ej2-angular-grids';
 import { hospitalData, waitingList } from './data';
 
 @Component({
@@ -60,9 +60,9 @@ export class AppComponent {
 // Grid data
   public gridDS: Object = waitingList;
   public allowDragAndDrop: boolean = true;
-  public srcDropOptions: Object = { targetID: 'Schedule' };
+  public srcDropOptions: RowDropSettingsModel = { targetID: 'Schedule' };
   public primaryKeyVal: boolean = true;
-  public editSettings: Object = {
+  public editSettings: EditSettingsModel = {
     allowAdding: true,
     allowEditing: true,
     allowDeleting: true
