@@ -2,10 +2,13 @@
 A quick start project that helps you to learn how easily you can drag a record from Angular Grid and drop them into any cells of the Syncfusion Angular Scheduler using its built-in properties.
 
 To drag between two Data Grids: https://ej2.syncfusion.com/angular/documentation/grid/row/#drag-and-drop
+
 To drag between Scheduler and TreeView: https://ej2.syncfusion.com/angular/documentation/schedule/appointments/?no-cache=1#drag-and-drop-items-from-external-source
 
-Online examples: 
-Scheduler: https://ej2.syncfusion.com/angular/demos/#/material/schedule/external-drag-drop 
+Online examples:
+
+Scheduler: https://ej2.syncfusion.com/angular/demos/#/material/schedule/external-drag-drop
+
 Grid: https://ej2.syncfusion.com/angular/demos/#/material/grid/drag-and-drop
 
 ## Project pre-requisites
