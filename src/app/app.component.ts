@@ -80,6 +80,7 @@ export class AppComponent {
           const filteredData: Object = event.data;
           let cellData: CellClickEventArgs = this.scheduleObj.getCellDetails(event.target);
           let eventData: { [key: string]: Object } = {
+                Id: filteredData[0].Id,
                 Name: filteredData[0].Name,
                 StartTime: cellData.startTime,
                 EndTime: cellData.endTime,
